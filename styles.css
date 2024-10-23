@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(132, 129, 126);
+    font-family: "Sen";
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #222;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header h1{
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#fff
+}
+
+nav ul li a:hover{
+    color: rgb(85, 74, 60);
+    border-bottom:1px solid yellow;
+}
+
+.hero{
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2{
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #222;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.hero .btn:hover {
+    background-color: #0056b3;
+}
+
+.footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.main-content{
+    color: #fff;
+}
+
+.posts{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.articles {
+    margin-left: 20px;
+}
+
+.articles h2{
+    padding: 20px;
+    font-size: 2.5rem;
+}
+
+.articles img{
+    width: 620px;
+    height: 400px;
+}
+
+.articles p{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.articles a{
+    text-decoration: none;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.articles a:hover{
+    color: #0056b3;
+}
+
+.sidebar{
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar h3{
+    font-size:2.5rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.sidebar ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+.sidebar ul li a:hover{
+    color: #0056b3;
+}
